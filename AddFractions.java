@@ -22,7 +22,7 @@ public static void main(String [] args) {
     int c = scan.nextInt();
     System.out.print("Enter the second fraction's denominator (d): ");
     int d = scan.nextInt();
-
+    
     int answerNum = ((a*d)+(b*c));
     int answerDen = (b*d);
     String fullAns = answerNum + "/" + answerDen;
