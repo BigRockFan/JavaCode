@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Secret {
+public class Test {
 public static void main(String [] args) {
 
 String color, name;
@@ -19,7 +19,7 @@ int lengthOfName = name.length();
 int lastnum = (int)(Math.sqrt(day + age));
 String ans = rando + (color.toLowerCase()) + ((name.substring(0, 1)).toUpperCase()) + ((name.substring(lengthOfName-1, lengthOfName)).toUpperCase()) + lastnum;
 
-System.out.println("Your secret password is: "+ans;
+System.out.println("Your secret password is: "+ans);
 
 }
 }
