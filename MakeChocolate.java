@@ -18,6 +18,9 @@ public class MakeChocolate {
 
         int leftover = 0, neededSmall = 0;
         boolean impossible = false;
+        if (big < 0 || small < 0 || needed < 0)
+          System.out.println("ERROR: You must not enter a negative number.");
+        else {
         if (needed - big*5 <= 0) {
           leftover = 0; //stays zero since small bars aren't required
         }
@@ -36,4 +39,5 @@ public class MakeChocolate {
           System.out.println("You will be using "+leftover+" small bars to make this much chocolate.");
         }
       }
+    }
   }
