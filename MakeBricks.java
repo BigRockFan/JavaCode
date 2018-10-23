@@ -10,8 +10,11 @@ public class MakeBricks {
     public static void main(String [] args) {
         Scanner scan = new Scanner(System.in);
 
+        System.out.print("Enter the number of small bricks: ");
         int small = scan.nextInt();
+        System.out.print("Enter the number of big bricks: ");
         int big = scan.nextInt();
+        System.out.print("Enter the goal: ")
         int goal = scan.nextInt();
 
         if (big < 0 || small < 0 || goal < 0) {
